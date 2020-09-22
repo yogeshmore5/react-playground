@@ -1,0 +1,22 @@
+import React from "react";
+import Message from "./Message";
+
+class Parent extends React.Component{
+
+  state = {messageDisplayed : 'old'};
+  componentDidMount(){
+    this.setState({messageDisplayed: 'new'});
+  }
+  render(){
+    console.log('Parent Component is getting rendered');
+    return(
+      <div>
+      <h5>Case 1: Avoid re-rendering of child component on state change of parent component</h5>
+      <label>This is a parent component and below message coming from child component</label>
+        <Message />
+      </div>
+    );
+  }
+}
+
+export default Parent;
