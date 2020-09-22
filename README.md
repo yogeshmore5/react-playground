@@ -15,6 +15,3 @@ LifeCycle - just a call to lifecycle methods and see in console logs
 
 PropContainer - To pass props to child component
 
-
-
-
