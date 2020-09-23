@@ -16,9 +16,10 @@ class App extends React.PureComponent {
           {/* to Pass props to component with route use render method.
           Do not invoke component with inline function to component attribute as component = { () => <YourComponentName data={}>}.
           This creates component every time it renders and hence affect the performance. Refer official doc for more info. */}
+          <Route path="/PropContainer" exact render={() => <PropContainer name={`Shubhra`} div='Kingfisher' std={`Sr. KG`}/>}/>
           <Route path="/LifeCycle" exact render={ () => <LifeCycle message="Case 3: See Console log for LifeCycle Method's order" />} />
 
-          <Route path="/PropContainer" exact render={() => <PropContainer name={`Shubhra`} div='Kingfisher' std={`Sr. KG`}/>}/>
+
         </Switch>
       </div>
       </Router>

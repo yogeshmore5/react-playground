@@ -59,7 +59,7 @@ class LifeCycle extends React.Component{
     console.log('Render is called');
     return (
     <div>
-      <h5>{this.props.message}</h5>
+      <h4>{this.props.message}</h4>
       <div>Monitor of the class is {this.props.name}</div>
       <div>This class has {this.state.studentCount} students</div>
       <button onClick={ this.incrementCounter}>Add Student</button>

@@ -8,7 +8,7 @@ function PropContainer({name, div, std}) {
   }
   return (
     <div>
-      <h5>Case 2: Passing Props to component</h5>
+      <h4>Case 2: Passing Props to component</h4>
       <div><label style={styleOfComponent}>Name: </label> {name}</div>
       <div><label style={styleOfComponent}>Division: </label> {div}</div>
       <div><label style={styleOfComponent}>Standard:</label> {std}</div>
