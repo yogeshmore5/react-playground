@@ -1,11 +1,3 @@
-body{
-  margin:10px;
-}
-li, ul{
-  list-style:none;
-  display:block;
-}
-
 #mainMenu{
   margin:10px;
   width:900px;

@@ -3,6 +3,7 @@ import PropContainer from "./PropContainer";
 import LifeCycle from "./LifeCycle";
 import Parent from "./Parent";
 import Nav from "./Nav";
+import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 class App extends React.PureComponent {

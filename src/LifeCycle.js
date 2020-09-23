@@ -31,7 +31,7 @@ class LifeCycle extends React.Component{
   UNSAFE_componentWillUpdate(nextProps, nextState){
     console.log('UNSAFE_componentWillUpdate is called');
   }
-   */
+  */
   componentDidMount(){
     console.log('componentDidMount is called');
   }
@@ -42,11 +42,9 @@ class LifeCycle extends React.Component{
   getSnapshotBeforeUpdate(prevProps, prevState){
     console.log('getSnapshotBeforeUpdate is called');
     return null;
-
   }
   componentDidUpdate(prevProps, prevState, snapshot){
     console.log('componentDidUpdate is called ', snapshot);
-
   }
   componentDidCatch(){
     console.log('componentDidCatch is called');

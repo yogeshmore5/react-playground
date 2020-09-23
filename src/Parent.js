@@ -4,6 +4,8 @@ import Message from "./Message";
 class Parent extends React.Component{
 
   state = {messageDisplayed : 'old'};
+
+  //Changing state on component mount to trigger re-render
   componentDidMount(){
     this.setState({messageDisplayed: 'new'});
   }
