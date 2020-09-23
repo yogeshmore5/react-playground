@@ -4,6 +4,7 @@ import LifeCycle from "./LifeCycle";
 import Parent from "./Parent";
 import Nav from "./Nav";
 import "./App.css";
+import UseStateHook from "./UseStateHook";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 class App extends React.PureComponent {
@@ -19,6 +20,7 @@ class App extends React.PureComponent {
           This creates component every time it renders and hence affect the performance. Refer official doc for more info. */}
           <Route path="/PropContainer" exact render={() => <PropContainer name={`Shubhra`} div='Kingfisher' std={`Sr. KG`}/>}/>
           <Route path="/LifeCycle" exact render={ () => <LifeCycle message="Case 3: See Console log for LifeCycle Method's order" />} />
+          <Route path="/UseStateHook" exact render={ () => <UseStateHook />} />
 
 
         </Switch>

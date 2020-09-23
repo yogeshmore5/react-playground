@@ -16,6 +16,9 @@ class Nav extends React.Component {
           <Link to="/LifeCycle">
             <li>Lifecycle</li>
           </Link>
+          <Link to="/UseStateHook">
+            <li>useState Hook</li>
+          </Link>
         </ul>
       </nav>
     )
